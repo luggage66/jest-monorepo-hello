@@ -1,4 +1,4 @@
-import { service1 } from "../src";
+import { service1 } from "../";
 
 describe('@jmh/service1', () => {
     it("works", () => {
