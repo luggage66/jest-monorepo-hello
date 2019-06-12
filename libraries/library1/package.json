@@ -1,0 +1,36 @@
+{
+  "name": "@jmh/library1",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Donald Mull Jr <donald.mull@gmail.com>",
+  "homepage": "https://github.com/luggage66/jest-monorepo-hello#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luggage66/jest-monorepo-hello.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/luggage66/jest-monorepo-hello/issues"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.1"
+  }
+}
