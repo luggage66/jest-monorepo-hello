@@ -1,3 +1,3 @@
 export function library1() {
-    return "library 1 mock implementation";
+    return "library 1 mock-1 implementation";
 }

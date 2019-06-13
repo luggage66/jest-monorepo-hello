@@ -5,8 +5,8 @@ module.exports = {
     "/node_modules/",
     "/dist/"
   ],
-  // projects: [
-  //   "services/*",
-  //   "libraries/*"
-  // ]
+  projects: [
+    "services/*",
+    "libraries/*"
+  ]
 };

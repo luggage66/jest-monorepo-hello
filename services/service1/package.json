@@ -29,5 +29,8 @@
   },
   "dependencies": {
     "@jmh/library1": "^1.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest"
   }
 }
